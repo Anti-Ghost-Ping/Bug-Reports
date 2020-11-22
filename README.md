@@ -1,2 +1,2 @@
 # Bug Reports
-Found a bug or exploit with Anti Ghost Ping? Create an issue here!
+Found a bug or exploit with Anti Ghost Ping? Report it here by creating an issue!
