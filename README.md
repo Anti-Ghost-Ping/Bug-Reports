@@ -5,4 +5,4 @@ Found a bug or exploit with Anti Ghost Ping? Report it here by creating an issue
 
 **Bug:** If a user other than the author of the message deletes the message containing a ping the bot will respond.
 
-**Reason:** Discords api doesnt really show who deleted the message, which means the bot would have to check the audit logs and figure out which message was the one with the ghost ping and see who deleted it. Its very possible that the bot could mess up with that method aswell. All invite links to the bot should have the audit logs permission and I added that because if discord ever adds capability to see who deletes the message, it will be easier to implement into the bot.
+**Reason:** Discord's API does not show who deleted the message, which means the bot would have to check the audit logs and match which audit log entry was the message delete that contained the ghost ping. This can get risky as the bot could match incorrectly, and send a ghost ping alert at wrong occasions.
