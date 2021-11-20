@@ -1,7 +1,7 @@
 # Bug Reports
 Found a bug or exploit with Anti Ghost Ping? Report it here by creating an issue!
 
-# List of bugs I wont/cant fix
+# List of bugs I won't/can't fix
 
 **Bug:** If a user other than the author of the message deletes the message containing a ping the bot will respond.
 
